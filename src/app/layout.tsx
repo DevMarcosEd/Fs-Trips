@@ -12,7 +12,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
-    </html>
+      <body>
+        <h1>Header</h1>
+        {children}  {/*Conteudo da page.tsx */}
+       </body>
+    </html >
   )
 }
