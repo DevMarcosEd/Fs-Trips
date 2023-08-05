@@ -1,7 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 'use client'
 
-import TripSearch from "@/components/TripSearch/TripSearch"
+import TripSearch from "@/components/Search/TripSearch"
 
 export default function Home() {
   return (
