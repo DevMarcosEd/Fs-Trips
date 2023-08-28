@@ -1,10 +1,10 @@
-'use client'
+"use client";
 
-import React, { useState } from 'react'
-import Input from '../Inputs/Input'
-import DataPicker from '../Inputs/DataPicker'
-import CurrencyInput from '../Inputs/CurrencyInput'
-import Button from '../Buttons/Button'
+import React, { useState } from "react";
+import Input from "../Inputs/Input";
+import DataPicker from "../Inputs/DataPicker";
+import CurrencyInput from "../Inputs/CurrencyInput";
+import Button from "../Buttons/Button";
 
 const TripSearch = () => {
     return (
@@ -24,7 +24,7 @@ const TripSearch = () => {
                 <Button>Buscar</Button>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default TripSearch
+export default TripSearch;

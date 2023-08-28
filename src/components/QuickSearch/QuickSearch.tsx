@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 const QuickSearch = () => {
     return (
@@ -36,7 +36,7 @@ const QuickSearch = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default QuickSearch
+export default QuickSearch;

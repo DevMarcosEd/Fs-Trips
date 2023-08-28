@@ -5,7 +5,7 @@ import { PrismaAdapter } from "@auth/prisma-adapter";
 import { Adapter } from "next-auth/adapters";
 
 // Importação da instância do Prisma
-import { prisma } from "@/lib/Prisma";
+import { prisma } from "@/lib/prisma";
 
 // Configuração das opções de autenticação para o NextAuth.js
 export const authOptions: AuthOptions = {

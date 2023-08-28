@@ -1,9 +1,9 @@
-'use client'
+"use client";
 
-import Image from 'next/image'
-import React, { useState } from 'react'
-import { signIn, signOut, useSession } from 'next-auth/react'
-import { AiOutlineMenu } from 'react-icons/ai'
+import Image from "next/image";
+import React, { useState } from "react";
+import { signIn, signOut, useSession } from "next-auth/react";
+import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
     const [menuIsOpen, setMenuIsOpen] = React.useState(false);
@@ -15,7 +15,7 @@ const Header = () => {
     const handleLogoutClick = () => {
         setMenuIsOpen(false);
         signOut();
-    }
+    };
 
     const handleMenuClick = () => setMenuIsOpen(!menuIsOpen);
 
@@ -47,7 +47,7 @@ const Header = () => {
                 </div>
             )}
         </div>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;
