@@ -25,6 +25,8 @@ model Trip {
 
   // Estabelecendo uma relação de um-para-muitos com o modelo TripReservation.
   reservations TripReservation[]
+  countryCode  String
+  recommended  Boolean           @default(false)
 }
 
 // Definindo o modelo para a entidade 'TripReservation' (Reserva de Viagem).
