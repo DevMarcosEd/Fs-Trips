@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import Input from "../Inputs/Input";
-import DataPicker from "../Inputs/DataPicker";
-import CurrencyInput from "../Inputs/CurrencyInput";
-import Button from "../Buttons/Button";
+import Input from "../../components/Inputs/Input";
+import DataPicker from "../../components/Inputs/DataPicker";
+import CurrencyInput from "../../components/Inputs/CurrencyInput";
+import Button from "../../components/Buttons/Button";
 
 const TripSearch = () => {
     return (

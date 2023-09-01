@@ -1,8 +1,6 @@
-"use client";
-
-import QuickSearch from "@/components/QuickSearch/QuickSearch";
-import RecommendedTrips from "@/components/RecommendedTrips/RecommendedTrips";
-import TripSearch from "@/components/Search/TripSearch";
+import QuickSearch from "@/app/components/QuickSearch";
+import RecommendedTrips from "@/app/components/RecommendedTrips";
+import TripSearch from "@/app/components/TripSearch";
 
 export default function Home() {
   return (
